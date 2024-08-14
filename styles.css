@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+#box-1 {
+  background-color: red;
+}
+
+#box-2 {
+  background-color: green;
+}
+
+#box-3 {
+  background-color: blue;
+}
+
+.buttons-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+.ball {
+  width: 120px;
+  height: 120px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url('./ball.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.ball-2 {
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.shape {
+  width: 200px;
+  height: 200px;
+  background: black;
+  border: 5px solid gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+}
+
+.message span {
+  font-size: 3rem;
+  font-weight: bold;
+  display: inline-block;
+}
